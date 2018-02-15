@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Roman Kopaev")]
 [assembly: AssemblyProduct("PZone XrmToolBox")]
-[assembly: AssemblyCopyright("Copyright © PZone 2018")]
+[assembly: AssemblyCopyright("Copyright © 2018 PZone")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
