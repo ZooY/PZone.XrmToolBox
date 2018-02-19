@@ -39,13 +39,14 @@ namespace PZone.XrmToolBox
             this.IdColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.MainCommandBar = new System.Windows.Forms.ToolStrip();
-            this.DownloadButton = new System.Windows.Forms.ToolStripButton();
-            this.SaveAssemblyDialog = new System.Windows.Forms.SaveFileDialog();
             this.CloseButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.AboutDropDownButton = new System.Windows.Forms.ToolStripDropDownButton();
             this.AboutButton = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.DownloadButton = new System.Windows.Forms.ToolStripButton();
+            this.SaveAssemblyDialog = new System.Windows.Forms.SaveFileDialog();
+            this.ExportButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
@@ -112,27 +113,12 @@ namespace PZone.XrmToolBox
             this.toolStripSeparator1,
             this.AboutDropDownButton,
             this.toolStripSeparator2,
-            this.DownloadButton});
+            this.DownloadButton,
+            this.ExportButton});
             this.MainCommandBar.Location = new System.Drawing.Point(3, 0);
             this.MainCommandBar.Name = "MainCommandBar";
-            this.MainCommandBar.Size = new System.Drawing.Size(197, 25);
+            this.MainCommandBar.Size = new System.Drawing.Size(288, 25);
             this.MainCommandBar.TabIndex = 0;
-            // 
-            // DownloadButton
-            // 
-            this.DownloadButton.Image = ((System.Drawing.Image)(resources.GetObject("DownloadButton.Image")));
-            this.DownloadButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.DownloadButton.Name = "DownloadButton";
-            this.DownloadButton.Size = new System.Drawing.Size(81, 22);
-            this.DownloadButton.Text = "Download";
-            this.DownloadButton.ToolTipText = "Download selected Plug-in on disk";
-            this.DownloadButton.Click += new System.EventHandler(this.DownloadButton_Click);
-            // 
-            // SaveAssemblyDialog
-            // 
-            this.SaveAssemblyDialog.DefaultExt = "dll";
-            this.SaveAssemblyDialog.Filter = "DLL (*.dll)|*.dll|All files (*.*)|*.*";
-            this.SaveAssemblyDialog.InitialDirectory = "C:\\Users\\ra.kopaev\\Desktop";
             // 
             // CloseButton
             // 
@@ -150,11 +136,6 @@ namespace PZone.XrmToolBox
             this.toolStripSeparator1.Name = "toolStripSeparator1";
             this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
             // AboutDropDownButton
             // 
             this.AboutDropDownButton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -169,9 +150,40 @@ namespace PZone.XrmToolBox
             // 
             this.AboutButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.AboutButton.Name = "AboutButton";
-            this.AboutButton.Size = new System.Drawing.Size(152, 22);
+            this.AboutButton.Size = new System.Drawing.Size(149, 22);
             this.AboutButton.Text = "About plug-in";
             this.AboutButton.Click += new System.EventHandler(this.AboutButton_Click);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // DownloadButton
+            // 
+            this.DownloadButton.Image = ((System.Drawing.Image)(resources.GetObject("DownloadButton.Image")));
+            this.DownloadButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.DownloadButton.Name = "DownloadButton";
+            this.DownloadButton.Size = new System.Drawing.Size(81, 22);
+            this.DownloadButton.Text = "Download";
+            this.DownloadButton.ToolTipText = "Download selected Plug-in on disk";
+            this.DownloadButton.Click += new System.EventHandler(this.DownloadButton_Click);
+            // 
+            // SaveAssemblyDialog
+            // 
+            this.SaveAssemblyDialog.DefaultExt = "dll";
+            this.SaveAssemblyDialog.Filter = "DLL (*.dll)|*.dll|All files (*.*)|*.*";
+            this.SaveAssemblyDialog.InitialDirectory = "C:\\Users\\ra.kopaev\\Desktop";
+            // 
+            // ExportButton
+            // 
+            this.ExportButton.Image = ((System.Drawing.Image)(resources.GetObject("ExportButton.Image")));
+            this.ExportButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ExportButton.Name = "ExportButton";
+            this.ExportButton.Size = new System.Drawing.Size(60, 22);
+            this.ExportButton.Text = "Export";
+            this.ExportButton.ToolTipText = "Export plug-ins list to CSV-file";
+            this.ExportButton.Click += new System.EventHandler(this.ExportButton_Click);
             // 
             // PluginDownloaderControl
             // 
@@ -207,5 +219,6 @@ namespace PZone.XrmToolBox
         private System.Windows.Forms.ToolStripDropDownButton AboutDropDownButton;
         private System.Windows.Forms.ToolStripMenuItem AboutButton;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
+        private System.Windows.Forms.ToolStripButton ExportButton;
     }
 }

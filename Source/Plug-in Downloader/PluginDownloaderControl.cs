@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
 using Microsoft.Xrm.Sdk.Query;
 using XrmToolBox.Extensibility;
@@ -84,5 +85,31 @@ namespace PZone.XrmToolBox
         public string UserName => "ZooY";
         public string DonationDescription => "Donation for MSCRM Tools - PZone Plug-in Downloader";
         public string EmailAccount => "roman@kopaev.ru";
+
+        private void ExportButton_Click(object sender, EventArgs e)
+        {
+            var sfd = new SaveFileDialog 
+                {
+                    Title = "Choose file to save to",
+                    FileName = "Plug-ins.csv",
+                    Filter = "CSV (*.csv)|*.csv",
+                    FilterIndex = 0,
+                    InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+                };
+
+            if (sfd.ShowDialog() != DialogResult.OK) return;
+
+            var headers = PluginsList.Columns.OfType<ColumnHeader>().Select(header => header.Text.Trim()).ToArray();
+            var items = PluginsList.Items
+                .OfType<ListViewItem>()
+                .Select(lvi => lvi.SubItems
+                    .OfType<ListViewItem.ListViewSubItem>()
+                    .Select(si => si.Text).ToArray()).ToArray();
+
+            var table = string.Join(";", headers) + Environment.NewLine;
+            table = items.Aggregate(table, (current, a) => current + (string.Join(";", a) + Environment.NewLine));
+            table = table.TrimEnd('\r', '\n');
+            File.WriteAllText(sfd.FileName, table, Encoding.UTF8);
+        }
     }
 }
