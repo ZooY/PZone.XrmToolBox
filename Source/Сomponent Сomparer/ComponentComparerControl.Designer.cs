@@ -4,7 +4,7 @@ using XrmToolBox.Extensibility;
 
 namespace PZone.XrmToolBox
 {
-    partial class СomponentСomparerControl
+    partial class ComponentComparerControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -37,7 +37,7 @@ namespace PZone.XrmToolBox
             "00000000-0000-0000-0000-000000000000",
             "1.0.0",
             "2.2"}, -1);
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(СomponentСomparerControl));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComponentComparerControl));
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.ResultList = new System.Windows.Forms.ListView();
             this.NameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -416,7 +416,7 @@ namespace PZone.XrmToolBox
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.toolStripContainer1);
-            this.Name = "СomponentСomparerControl";
+            this.Name = "ComponentComparerControl";
             this.Size = new System.Drawing.Size(941, 565);
             this.Load += new System.EventHandler(this.СomponentСomparerControl_Load);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);

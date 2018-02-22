@@ -12,11 +12,11 @@ using XrmToolBox.Extensibility.Interfaces;
 
 namespace PZone.XrmToolBox
 {
-    public partial class СomponentСomparerControl : MultipleConnectionsPluginControlBase, IGitHubPlugin //, IPayPalPlugin
+    public partial class ComponentComparerControl : MultipleConnectionsPluginControlBase, IGitHubPlugin //, IPayPalPlugin
     {
         private ListViewItem[] _items = new ListViewItem[0];
 
-        public СomponentСomparerControl()
+        public ComponentComparerControl()
         {
             InitializeComponent();
         }

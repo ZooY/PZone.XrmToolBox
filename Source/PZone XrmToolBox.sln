@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-in Downloader", "Plug-in Downloader\Plug-in Downloader.csproj", "{1B50EAB4-F8CC-492C-97F3-BD6007750CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Сomponent Сomparer", "Сomponent Сomparer\Сomponent Сomparer.csproj", "{C713AF78-7F22-42EB-B42D-F8F2A286F5F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentComparer", "Сomponent Сomparer\ComponentComparer.csproj", "{C713AF78-7F22-42EB-B42D-F8F2A286F5F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
