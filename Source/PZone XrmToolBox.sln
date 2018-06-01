@@ -5,9 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-in Downloader", "Plug-in Downloader\Plug-in Downloader.csproj", "{1B50EAB4-F8CC-492C-97F3-BD6007750CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComponentComparer", "Сomponent Сomparer\ComponentComparer.csproj", "{C713AF78-7F22-42EB-B42D-F8F2A286F5F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Component Comparer", "Сomponent Сomparer\Component Comparer.csproj", "{C713AF78-7F22-42EB-B42D-F8F2A286F5F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Everywhere Search", "Everywhere Search\Everywhere Search.csproj", "{146AF338-B888-4D26-807E-9B22704DA535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Views Manager", "User Views Manager\User Views Manager.csproj", "{2D5C0B57-040B-44AD-A793-1107CE82CEB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{146AF338-B888-4D26-807E-9B22704DA535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{146AF338-B888-4D26-807E-9B22704DA535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{146AF338-B888-4D26-807E-9B22704DA535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D5C0B57-040B-44AD-A793-1107CE82CEB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D5C0B57-040B-44AD-A793-1107CE82CEB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D5C0B57-040B-44AD-A793-1107CE82CEB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D5C0B57-040B-44AD-A793-1107CE82CEB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -182,7 +182,7 @@ namespace PZone.XrmToolBox
             this.ShowMode});
             this.MainCommandBar.Location = new System.Drawing.Point(3, 0);
             this.MainCommandBar.Name = "MainCommandBar";
-            this.MainCommandBar.Size = new System.Drawing.Size(492, 25);
+            this.MainCommandBar.Size = new System.Drawing.Size(459, 25);
             this.MainCommandBar.TabIndex = 0;
             // 
             // CloseButton
@@ -411,7 +411,7 @@ namespace PZone.XrmToolBox
             this.SaveAssemblyDialog.Filter = "DLL (*.dll)|*.dll|All files (*.*)|*.*";
             this.SaveAssemblyDialog.InitialDirectory = "C:\\Users\\ra.kopaev\\Desktop";
             // 
-            // СomponentСomparerControl
+            // ComponentComparerControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

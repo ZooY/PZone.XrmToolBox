@@ -58,9 +58,9 @@
             this.label1.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.Location = new System.Drawing.Point(99, 13);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(365, 37);
+            this.label1.Size = new System.Drawing.Size(341, 37);
             this.label1.TabIndex = 1;
-            this.label1.Text = "PZone Сomponent Сomparer";
+            this.label1.Text = "PZone User Views Manager";
             // 
             // label2
             // 
@@ -162,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 219);
+            this.ClientSize = new System.Drawing.Size(451, 219);
             this.Controls.Add(this.PZoneLink);
             this.Controls.Add(this.BugReportLink);
             this.Controls.Add(this.GitHubLink);
@@ -178,7 +178,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "AboutForm";
-            this.Text = "About Component Comparer";
+            this.Text = "About User Views Manager";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
