@@ -52,10 +52,10 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="McTools.Xrm.Connection">
-      <HintPath>..\..\..\..\..\Tools\XrmToolbox\McTools.Xrm.Connection.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\McTools.Xrm.Connection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk">
-      <HintPath>..\..\..\..\..\Tools\XrmToolbox\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
@@ -65,10 +65,10 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="XrmToolBox">
-      <HintPath>..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.exe</HintPath>
     </Reference>
     <Reference Include="XrmToolBox.Extensibility">
-      <HintPath>..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.Extensibility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

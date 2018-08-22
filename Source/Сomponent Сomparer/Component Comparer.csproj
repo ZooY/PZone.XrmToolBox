@@ -70,11 +70,11 @@
   <ItemGroup>
     <Reference Include="McTools.Xrm.Connection, Version=1.2017.10.15, Culture=neutral, PublicKeyToken=96037217801d9658, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Plug-in Downloader\bin\Release\McTools.Xrm.Connection.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\McTools.Xrm.Connection.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Plug-in Downloader\bin\Release\Microsoft.Xrm.Sdk.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\Microsoft.Xrm.Sdk.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Xrm.Tooling.Connector">
       <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\Microsoft.Xrm.Tooling.Connector.dll</HintPath>
@@ -89,11 +89,11 @@
     <Reference Include="System.Windows.Forms" />
     <Reference Include="XrmToolBox, Version=1.2018.1.20, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Plug-in Downloader\bin\Release\XrmToolBox.exe</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.exe</HintPath>
     </Reference>
     <Reference Include="XrmToolBox.Extensibility, Version=1.2017.7.10, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Plug-in Downloader\bin\Release\XrmToolBox.Extensibility.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Tools\XrmToolbox\XrmToolBox.Extensibility.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
