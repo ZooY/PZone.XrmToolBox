@@ -152,10 +152,10 @@
             this.BugReportLink.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.BugReportLink.Location = new System.Drawing.Point(103, 180);
             this.BugReportLink.Name = "BugReportLink";
-            this.BugReportLink.Size = new System.Drawing.Size(69, 15);
+            this.BugReportLink.Size = new System.Drawing.Size(66, 15);
             this.BugReportLink.TabIndex = 3;
             this.BugReportLink.TabStop = true;
-            this.BugReportLink.Text = "Bug Repont";
+            this.BugReportLink.Text = "Bug Report";
             this.BugReportLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.BugReportLink_LinkClicked);
             // 
             // AboutForm

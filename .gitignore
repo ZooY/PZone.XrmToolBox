@@ -7,3 +7,8 @@ Source/Everywhere Search/obj/
 Source/Everywhere Search/bin/
 Source/User Views Manager/bin/
 Source/User Views Manager/obj/
+Source/AutoPublisher/AutoPublisher.csproj.user
+Source/AutoPublisher/bin/
+Source/AutoPublisher/obj/
+Source/Executor/bin/
+Source/Executor/obj/
