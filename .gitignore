@@ -1,14 +1,33 @@
-Source/.vs/
-Source/Plug-in Downloader/bin/
-Source/Plug-in Downloader/obj/
-Source/Сomponent Сomparer/bin/
-Source/Сomponent Сomparer/obj/
-Source/Everywhere Search/obj/
-Source/Everywhere Search/bin/
-Source/User Views Manager/bin/
-Source/User Views Manager/obj/
-Source/AutoPublisher/AutoPublisher.csproj.user
-Source/AutoPublisher/bin/
-Source/AutoPublisher/obj/
-Source/Executor/bin/
-Source/Executor/obj/
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Remainings from resolving conflicts in Source Control
+*.orig
+
+# Visual Studio temp something
+.vs/
+
+# Other Extensions
+*.vspscc
+
+# NuGet Packages
+**/packages/
+
+# ReSharper files
+*.[Dd]otSettings
