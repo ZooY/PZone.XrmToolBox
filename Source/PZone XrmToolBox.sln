@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29318.209
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plug-in Downloader", "Plug-in Downloader\Plug-in Downloader.csproj", "{1B50EAB4-F8CC-492C-97F3-BD6007750CA5}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPublisher", "AutoPublisher\AutoPublisher.csproj", "{8332084E-B8A2-4A2B-BE34-1DB248ACD84A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Executor", "Executor\Executor.csproj", "{7F4734E7-3230-4F62-A23F-DC5A361029CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error Analizer", "Error Analizer\Error Analizer.csproj", "{91332F19-850E-46A2-93B7-D388E7FBEEB0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{7F4734E7-3230-4F62-A23F-DC5A361029CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4734E7-3230-4F62-A23F-DC5A361029CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F4734E7-3230-4F62-A23F-DC5A361029CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91332F19-850E-46A2-93B7-D388E7FBEEB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91332F19-850E-46A2-93B7-D388E7FBEEB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91332F19-850E-46A2-93B7-D388E7FBEEB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91332F19-850E-46A2-93B7-D388E7FBEEB0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
